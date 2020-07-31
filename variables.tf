@@ -82,7 +82,7 @@ variable "subnet_id" {
 variable "subnet_ids" {
   description = "A list of VPC Subnet IDs to launch in"
   type        = list(string)
-  default     = []
+  default     = ["foo", "bar"]
 }
 
 variable "associate_public_ip_address" {
